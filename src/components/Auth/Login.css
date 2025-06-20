@@ -1,0 +1,152 @@
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient( #008080 50%, rgb(194, 186, 186) 50%);
+}
+
+.login-container {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #e7dfdf; 
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+} 
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-title {
+    color: #212020;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    
+}
+
+.login-form input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #09cfc8;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom:15px;
+    font-size: 20px;
+    color: #2a2a2a;
+    background-color: transparent;
+    
+  }
+  .login-form input:focus {
+    outline: none;
+    border: 1px solid #880f0f;
+}
+
+.login-form button {
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: none;
+    background-color: #008080;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #00695c;
+}
+
+
+/* AdminDashboard */
+
+.admin-dashboard {
+  padding: 1.7rem;
+  background-color: #080808;
+  min-height: 100vh;
+  width: 100%;
+}
+.admin-dashboard-content {
+  padding: 1.25rem;
+  margin-top: 1.75rem;
+  border-radius: 0.25rem;
+  background-color: #1c1c1c;
+}
+.admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.form-left {
+  width: 50%;
+}
+.input-text {
+  font-size: 1rem;
+  color: #989595;
+  padding: 0.4rem 1rem; /* Top-Bottom: 0.25rem, Left-Right: 0.5rem */
+  width: 80%;
+  border-radius: 0.25rem;
+  margin-bottom: 15px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #fff;
+}
+.form-label {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  gap: 1.4rem;
+}
+
+.form-right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.custom-textarea {
+  width: 100%;
+  height: 11rem;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  background-color: transparent;
+  border: 1px solid #696f78;
+}
+
+.t-button {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #10b981;
+  color: #fff;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.t-button:hover {
+  background-color: #059669;
+}

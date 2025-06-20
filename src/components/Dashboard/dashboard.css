@@ -1,0 +1,240 @@
+.emp-dashboard {
+  padding: 20px;
+  background-color: #1c1c1c;
+  height: 100vh;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.header h1 {
+  line-height: 2rem;
+  font-size: 25px;
+  color: #fff;
+}
+span {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Task Number */
+.taskNum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+}
+.taskNum-container1 {
+  background-color: #cf1818;
+  padding: 30px;
+  border-radius: 10px;
+  width: 45%;
+}
+.taskNum-container2 {
+  background-color: #0d77f0;
+  padding: 30px;
+  border-radius: 10px;
+  width: 45%;
+}
+.taskNum-container3 {
+  background-color: #09eb7e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 45%;
+}
+.taskNum-container4 {
+  background-color: #abe304;
+  padding: 30px;
+  border-radius: 10px;
+  width: 45%;
+}
+.value,
+.newTask {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Task List */
+.taskList {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+  padding: 20px;
+  height: 50%;
+  width: 100%;
+  overflow-y:auto;
+}
+.taskList::-webkit-scrollbar {
+  display: none;
+}
+.tasklistbox {
+  height: 100%;
+  width: 350px;
+  flex: 0 0 auto;
+  background: #062776;
+  border-radius: 20px;
+  padding: 2px 20px;
+  overflow:hidden;
+ 
+}
+.boxinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2px;
+  margin-bottom: 10px;
+  overflow: auto;
+
+
+}
+.boxinfo h3 {
+  padding: 4px 12px;
+  color: #f71b1b;
+  font-weight: bold;
+  border-radius: 4px;
+ 
+  
+}
+.boxinfo h4 {
+  font-size: 12px;
+  padding: 4px 12px;
+  color: #fff;
+  font-weight: bold;
+}
+.ptitle {
+  margin-top: 2px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+.paragraph {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-weight: 500;
+
+}
+
+
+.alltask {
+  background-color: #1c1c1c;
+  padding: 20px 0;
+  margin-top: 16px;
+  border-radius: 4px;
+
+}
+.alltask-header {
+  background-color: #e2db0d;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+.alltask-header h2 ,h3 ,h5 {
+  width: 20%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3333c5;
+}
+
+.alltask-box {
+  border: #059669 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+.inbox1{
+  width: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.inbox2{
+  width: 20%;
+  color: #2563eb;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.inbox3{
+  width: 20%;
+  color: #facc15;
+  font-size: 20px;
+  font-weight: bold;
+}
+.inbox4{
+  width: 20%;
+  color: #16a34a;
+  font-size: 20px;
+  font-weight: bold;
+}
+.inbox5{
+  width: 20%;
+  color: #dc1616;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.alltask-2 {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.bt1 {
+  background-color: #06cd38;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+ 
+}
+.bt2 {
+  background-color: #c93f08;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+ 
+}
+.bt3 {
+  background-color: #0a58f3;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.bt4 {
+  background-color: #4ef07f;
+  color: white;
+  width: 50%;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
